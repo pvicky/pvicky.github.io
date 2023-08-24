@@ -1,0 +1,224 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.search-container {
+  width: 90%;
+}
+
+.search-thumb {
+  height: 120px;
+}
+
+.search-entry {
+  margin: 0.5rem;
+  border-bottom-style: solid;
+  border-color: grey;
+}
+
+.entry-title {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.entry-poster {
+  height: 180px;
+}
+
+.entry-exclude-title {
+  padding: 0.6rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.entry-date {
+  color: navy;
+}
+
+.entry-overview {
+  font-size: 0.9em;
+  color: grey;
+}
+
+.entry-misc {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: gray;
+}
+
+.main-body {
+  width: 85%;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.club-info-vals{
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.page-context {
+  font-size: 2.2em;
+}
+
+.description {
+  padding: 10px;
+  margin-left: 6px;
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.entries-club {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.entry-club {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.player-name {
+  font-weight: 500;
+}
+
+.player-number {
+  color: navy;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.player-position {
+  color: navy;
+  font-style: oblique;
+  font-size: 0.8rem;
+}
+
+.player-mugshot {
+  width: 120px;
+}
+
+.tiny-badge {
+  width: 20px;
+}
+
+.players-container {
+  display: flex;
+  gap: 12px;
+  margin: 12px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.score-separator {
+  font-weight: 600;
+  text-align: center;
+}
+
+.score-home {
+  font-weight: 600;
+  text-align: right;
+}
+
+.score-away {
+  font-weight: 600;
+}
+
+.last-events-container {
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: 120px 220px 12% 4% 40px 4% 12%;
+}
+
+.next-events-container {
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: 120px 220px 12% 40px 12%;
+}
+
+.event-league {
+  color: navy;
+}
+
+.event-home-team {
+  text-align: left;
+}
+
+.event-away-team {
+  text-align: right;
+}
+
+.event-date {
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.league-table {
+  padding: 8px;
+  margin-left: 20px;
+  display: grid;
+  row-gap: 8px;
+  grid-template-columns: 50px 25px 200px repeat(7, 5%);
+}
+
+.club-name {
+  text-decoration: underline;
+  color: navy;
+}
+
+.wins {
+  color: green;
+}
+
+.draws {
+  color: gray;
+}
+
+.losses {
+  color: red;
+}
+
+.points {
+  font-weight: 600;
+}
