@@ -1,3 +1,5 @@
+Homepage: https://pvicky.github.io/
+
 # Overview
 This simple react app acts as front-end to a crowd-sourced sports database that allows you to search for soccer players or clubs by name and view their profiles and other info. Currently we have implemented views for players, clubs and leagues.
 
